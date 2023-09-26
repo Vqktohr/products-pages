@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+.header{
+    height: 350px;
+    background: url('./image/header.jpg') no-repeat center center/cover;
+}
+
+.header-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.266);
+} 
+
+.header h1{
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    align-items: center;
+    top: 50px;
+    background: black;
+    border-radius: 50%;
+    width: 150px;
+    margin-left: 50%;
+}
+
+.header h3{
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 50px;
+}
+
+.list{
+    margin-top: 75px;
+    display: flex;
+    background-color: white;
+    height: 30px;
+    width: 75%;
+    margin-left: 12%;
+}
+
+.list p{
+    color: rgb(226, 226, 226);
+    margin-left: 10px;
+}
+
+.container{
+    display: flex;
+    margin-top: 40px;
+    width: 85%;
+    margin-left: 7.5%;
+    justify-content: center;
+}
+
+.box-container{
+    background-color: white;
+    border: 3px solid white;
+    width: 350px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box img{
+    width: 250px;
+    height: 200px;
+    margin-left: 45px;
+}
+
+.box{
+    background-color: rgb(226, 226, 226);
+    border: 5px solid white ;
+
+}
+
+.top{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#new{
+    background: burlywood;
+    border-radius: 3px;
+    margin-right: 210px;
+    margin-top: 15px;
+    color: white;
+}
+
+#price{
+    margin-top: 15px;
+    color: rgb(244, 152, 71);
+    font-size: 18px;
+}
+
+.box-container a{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 37%;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.star{
+    text-align: center;
+    margin-top: 13px;
+}
+
+.sym{
+    text-align: center;
+    margin-top: 16 px;
+    background-color: rgb(226, 226, 226);
+    font-size: 20px;
+    border: 5px solid white;
+}
+
+@media (max-width: 486px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        border: 5px solid white;
+    }
+}
